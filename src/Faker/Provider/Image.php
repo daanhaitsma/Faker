@@ -30,11 +30,11 @@ class Image extends Base
      */
     public static function imageUrl($width = 640, $height = 480, $category = null, $randomize = true, $word = null, $gray = false)
     {
-        $baseUrl = "https://lorempixel.com/";
+        $baseUrl = 'https://lorempixel.com/';
         $url = "{$width}/{$height}/";
 
         if ($gray) {
-            $url = "gray/" . $url;
+            $url = 'gray/' . $url;
         }
 
         if ($category) {

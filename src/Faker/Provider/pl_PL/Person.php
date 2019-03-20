@@ -161,7 +161,7 @@ class Person extends \Faker\Provider\Person
         }
 
         $result[$length - 1] |= 1;
-        if ($sex == "F") {
+        if ($sex == 'F') {
             $result[$length - 1] -= 1;
         }
 
@@ -182,8 +182,8 @@ class Person extends \Faker\Provider\Person
      */
     public static function personalIdentityNumber()
     {
-        $range = str_split("ABCDEFGHIJKLMNPRSTUVWXYZ");
-        $low = array("A", static::randomElement($range), static::randomElement($range));
+        $range = str_split('ABCDEFGHIJKLMNPRSTUVWXYZ');
+        $low = array('A', static::randomElement($range), static::randomElement($range));
         $high = array(static::randomDigit(), static::randomDigit(), static::randomDigit(), static::randomDigit(), static::randomDigit());
         $weights = array(7, 3, 1, 7, 3, 1, 7, 3);
         $checksum = 0;

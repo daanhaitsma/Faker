@@ -27,15 +27,15 @@ class Company extends \Faker\Provider\Company
      * @var array French nouns (used by the catch phrase format).
      */
     protected static $noun = array(
-        'la sécurité', 'le plaisir', 'le confort', 'la simplicité', "l'assurance", "l'art", 'le pouvoir', 'le droit',
-        'la possibilité', "l'avantage", 'la liberté'
+        'la sécurité', 'le plaisir', 'le confort', 'la simplicité', 'l\'assurance', 'l\'art', 'le pouvoir', 'le droit',
+        'la possibilité', 'l\'avantage', 'la liberté'
     );
 
     /**
      * @var array French verbs (used by the catch phrase format).
      */
     protected static $verb = array(
-        'de rouler', "d'avancer", "d'évoluer", 'de changer', "d'innover", 'de louer', "d'atteindre vos buts",
+        'de rouler', 'd\'avancer', 'd\'évoluer', 'de changer', 'd\'innover', 'de louer', 'd\'atteindre vos buts',
         'de concrétiser vos projets'
     );
 
@@ -44,7 +44,7 @@ class Company extends \Faker\Provider\Company
      */
     protected static $attribute = array(
         'de manière efficace', 'plus rapidement', 'plus facilement', 'plus simplement', 'en toute tranquilité',
-        'avant-tout', 'autrement', 'naturellement', 'à la pointe', 'sans soucis', "à l'état pur",
+        'avant-tout', 'autrement', 'naturellement', 'à la pointe', 'sans soucis', 'à l\'état pur',
         'à sa source', 'de manière sûre', 'en toute sécurité'
     );
 

@@ -47,7 +47,7 @@ class Address extends \Faker\Provider\Address
         'Alsace', 'Aquitaine', 'Auvergne', 'Bourgogne', 'Bretagne', 'Centre', 'Champagne-Ardenne',
         'Corse', 'Franche-Comté', 'Île-de-France', 'Languedoc-Roussillon', 'Limousin',
         'Lorraine', 'Midi-Pyrénées', 'Nord-Pas-de-Calais', 'Basse-Normandie', 'Haute-Normandie',
-        'Pays-de-Loire', 'Picardie', 'Poitou-Charentes', "Provence-Alpes-Côte d'Azur", 'Rhone-Alpes',
+        'Pays-de-Loire', 'Picardie', 'Poitou-Charentes', 'Provence-Alpes-Côte d\'Azur', 'Rhone-Alpes',
         'Guadeloupe', 'Martinique', 'Guyane', 'Réunion', 'Saint-Pierre-et-Miquelon', 'Mayotte',
         'Saint-Barthélémy', 'Saint-Martin', 'Wallis-et-Futuna', 'Polynésie française', 'Nouvelle-Calédonie'
     );
@@ -57,7 +57,7 @@ class Address extends \Faker\Provider\Address
         array('06' => 'Alpes-Maritimes'), array('07' => 'Ardèche'), array('08' => 'Ardennes'), array('09' => 'Ariège'), array('10' => 'Aube'),
         array('11' => 'Aude'), array('12' => 'Aveyron'), array('13' => 'Bouches-du-Rhône'), array('14' => 'Calvados'), array('15' => 'Cantal'),
         array('16' => 'Charente'), array('17' => 'Charente-Maritime'), array('18' => 'Cher'), array('19' => 'Corrèze'), array('2A' => 'Corse-du-Sud'),
-        array('2B' => 'Haute-Corse'), array('21' => "Côte-d'Or"), array('22' => "Côtes-d'Armor"), array('23' => 'Creuse'), array('24' => 'Dordogne'),
+        array('2B' => 'Haute-Corse'), array('21' => 'Côte-d\'Or'), array('22' => 'Côtes-d\'Armor'), array('23' => 'Creuse'), array('24' => 'Dordogne'),
         array('25' => 'Doubs'), array('26' => 'Drôme'), array('27' => 'Eure'), array('28' => 'Eure-et-Loir'), array('29' => 'Finistère'), array('30' => 'Gard'),
         array('31' => 'Haute-Garonne'), array('32' => 'Gers'), array('33' => 'Gironde'), array('34' => 'Hérault'), array('35' => 'Ille-et-Vilaine'),
         array('36' => 'Indre'), array('37' => 'Indre-et-Loire'), array('38' => 'Isère'), array('39' => 'Jura'), array('40' => 'Landes'), array('41' => 'Loir-et-Cher'),
@@ -71,11 +71,11 @@ class Address extends \Faker\Provider\Address
         array('77' => 'Seine-et-Marne'), array('78' => 'Yvelines'), array('79' => 'Deux-Sèvres'), array('80' => 'Somme'), array('81' => 'Tarn'),
         array('82' => 'Tarn-et-Garonne'), array('83' => 'Var'), array('84' => 'Vaucluse'), array('85' => 'Vendée'), array('86' => 'Vienne'),
         array('87' => 'Haute-Vienne'), array('88' => 'Vosges'), array('89' => 'Yonne'), array('90' => 'Territoire de Belfort'), array('91' => 'Essonne'),
-        array('92' => 'Hauts-de-Seine'), array('93' => 'Seine-Saint-Denis'), array('94' => 'Val-de-Marne'), array('95' => "Val-d'Oise"),
+        array('92' => 'Hauts-de-Seine'), array('93' => 'Seine-Saint-Denis'), array('94' => 'Val-de-Marne'), array('95' => 'Val-d\'Oise'),
         array('971' => 'Guadeloupe'), array('972' => 'Martinique'), array('973' => 'Guyane'), array('974' => 'La Réunion'), array('976' => 'Mayotte')
      );
 
-    protected static $secondaryAddressFormats = array('Apt. ###', 'Suite ###', 'Étage ###', "Bât. ###", "Chambre ###");
+    protected static $secondaryAddressFormats = array('Apt. ###', 'Suite ###', 'Étage ###', 'Bât. ###', 'Chambre ###');
 
     /**
      * @example 'Appt. 350'

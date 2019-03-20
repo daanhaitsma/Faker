@@ -165,7 +165,7 @@ class Person extends \Faker\Provider\Person
             case 3:
                 break;
             default:
-                throw new \InvalidArgumentException("Invalid date of birth - must be null or in the 'Y-m-d', 'Y-m', 'Y' format");
+                throw new \InvalidArgumentException('Invalid date of birth - must be null or in the \'Y-m-d\', \'Y-m\', \'Y\' format');
         }
 
         if ($dateOfBirthParts[0] < 1800 || $dateOfBirthParts[0] > 2099) {
